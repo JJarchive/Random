@@ -37,7 +37,7 @@ a { text-decoration:none; }
   /*opacity:0.85;*/
   font-family: D2Coding,'D2 coding','Nanum Gothic Coding',monospace,sans-serif;
   font-size: x-large;
-  text-shadow: 0px 0px 4px #ffff0f;
+  /*text-shadow: 0px 0px 4px #ffff0f;*/
   word-wrap:break-word;
   word-break:keep-all;
 }
@@ -56,7 +56,7 @@ input[type="number"] {
   width: 6em;
   font-weight: bold;
   font-size: large;
-  border:3px solid #cfcfff;
+  border:3px solid #0366d6;
   border-radius: 4px;
   text-align: right;
 }
@@ -64,6 +64,10 @@ input[type="submit"] {
   width: 6em;        
   font-weight: bold;
   font-size: large;
+  background-color: #0366d6;
+  color: #fff;
+  border: 1px solid #0366d6;
+  border-radius: 10px;
 }
 </style>
 <script>
@@ -133,8 +137,8 @@ window.addEventListener('DOMContentLoaded', function () {
   <h1><a href="/random.html" target="_top" title="무작위 번호 추출기 (Random Number Generator) ">2024년 메타버스산업 통합 사업설명회 경품추첨 </a></h1>
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>입력된 숫자 범위 내에서 겹치지 않는 숫자(정수)를 무작위 추출합니다.</b></p>
   <form name="randomNumber">
-    <p><span title="숫자 범위 (Range)">숫자 범위</span>: <input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="45" title="끝 값 (End)" /></p>
-    <p><span title="추출 숫자의 갯수 (Count)">추출 숫자의 갯수</span>: <input type="number" size="6" id="selectNum" value="6" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;<input type="submit" id="calcButton" value="추첨하기" title="누르면 추첨합니다. (Submit)" /></p>
+    <p><span title="숫자 범위 (Range)">숫자 범위</span>: <br/><input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="45" title="끝 값 (End)" /></p>
+    <p><span title="추출 숫자의 갯수 (Count)">추출 숫자의 갯수</span>: <br/><input type="number" size="6" id="selectNum" value="6" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;<br/><input type="submit" id="calcButton" value="추첨" title="누르면 추첨합니다. (Submit)" /></p>
   </form>
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★</div>
 
