@@ -32,11 +32,11 @@ a { text-decoration:none; }
 }
 #console {
   margin:1em auto 1em auto; 
-  padding:30px 30px 30px 20px;
+  padding:30px 30px 30px 30px;
   border:20px solid #e7e7e7;
   border-left:0.5em solid #e7e7e7;
   border-right:0.5em solid #e7e7e7;
-  border-radius: 20px;
+  border-radius: 30px;
   color:black;
   /*background:black url("/background.png") center/cover no-repeat;*/
   background:#f0f0f0 none center/cover no-repeat;
@@ -73,6 +73,7 @@ input[type="number"] {
   border:3px solid #0366d6;
   border-radius: 10px;
   text-align: right;
+  
 }
 input[type="submit"] {
   width: 5em;        
@@ -95,18 +96,18 @@ input[type="submit"] {
 }
 
 .btn-hover {
-    width: 16em;
-    font-size: large;
+    width: 100%;
+    font-size: x-large;
     font-weight: 700;
     color: #fff;
     cursor: pointer;
-    margin: 10px;
-    height: 40px;
+    margin: 0px;
+    height: 50px;
     text-align:center;
     border: none;
-    background-size: 300% 100%;
+    background-size: 400% 100%;
 
-    border-radius: 10px;
+    border-radius: 20px;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -194,10 +195,10 @@ window.addEventListener('DOMContentLoaded', function () {
 </head>
 <body>
   <h1><a href="/random.html" target="_top" title="무작위 번호 추출기 (Random Number Generator) ">[2025년 메타버스산업 통합 사업설명회] </a></h1>
-  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>입력된 숫자 범위 내에서 겹치지 않는 숫자(정수)를 무작위 추출합니다.</b></p>
+  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.</b></p>
   <form name="randomNumber">
-    <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="45" title="끝 값 (End)" /></p>
-    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="6" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
+    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작</button>
 </div>
