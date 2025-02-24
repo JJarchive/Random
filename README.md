@@ -83,6 +83,51 @@ input[type="submit"] {
   border: 1px solid #0366d6;
   border-radius: 10px;
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 16em;
+    font-size: large;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}  
 </style>
 <script>
 window.addEventListener('DOMContentLoaded', function () {
@@ -152,6 +197,9 @@ window.addEventListener('DOMContentLoaded', function () {
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>입력된 숫자 범위 내에서 겹치지 않는 숫자(정수)를 무작위 추출합니다.</b></p>
   <form name="randomNumber">
     <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="45" title="끝 값 (End)" /></p>
-    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="6" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="calcButton" value="추 첨" title="누르면 추첨합니다. (Submit)" /></p>
+    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="6" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+    <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작</button>
+</div>
   </form>
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 ★★</div>
