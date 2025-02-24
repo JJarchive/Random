@@ -48,6 +48,12 @@ a { text-decoration:none; }
   /*text-shadow: 0px 0px 4px #ffff0f;*/
   word-wrap:break-word;
   word-break:keep-all;
+  text-align: justify;
+}
+#console span {
+  display: inline-block;
+  margin: 0 10px; /* 숫자 간격 조정 */
+  text-align: justify;
 }
 #rtime {
   font-size: small;
