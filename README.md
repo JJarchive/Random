@@ -142,15 +142,22 @@ window.addEventListener('DOMContentLoaded', function () {
   function animateNumber(element, targetNumber) {
     let currentNumber = 0;
     element.style.opacity = 1; // 숫자 보이기
+    const duration = 800; // 애니메이션 지속 시간 (1초)
+    
+    // 목표 숫자에 따라 최대 카운트업 값 설정
+    const maxCount = Math.max(targetNumber, 99); // 100의 자리 이상으로 설정
+    const stepTime = duration / maxCount; // 각 숫자 증가에 필요한 시간
+
     const interval = setInterval(() => {
-      if (currentNumber < targetNumber) {
-        currentNumber++;
-        element.textContent = currentNumber; // 숫자 증가
-      } else {
-        clearInterval(interval); // 증가 완료 후 정지
-      }
-    }, 5); // 20ms마다 증가
-  }
+        if (currentNumber < maxCount) {
+            currentNumber++;
+            element.textContent = currentNumber; // 숫자 증가
+        } else {
+            clearInterval(interval); // 증가 완료 후 정지
+            element.textContent = targetNumber; // 최종 목표 값으로 설정
+        }
+    }, stepTime); // 각 숫자가 stepTime 간격으로 증가
+}
  
   function drawing(event) {
     event.preventDefault();
@@ -207,7 +214,7 @@ window.addEventListener('DOMContentLoaded', function () {
       const spanElement = document.querySelectorAll("#console span")[index];
       setTimeout(() => {
         animateNumber(spanElement, num);
-      }, index * 10); // 각 숫자가 500ms 간격으로 나타남
+      }, index * 30); // 각 숫자가 500ms 간격으로 나타남
     });
 
     document.getElementById("download").addEventListener("click", function (event) {
