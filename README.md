@@ -48,7 +48,7 @@ a { text-decoration:none; }
   /*text-shadow: 0px 0px 4px #ffff0f;*/
   word-wrap:break-word;
   word-break:keep-all;
-  text-align: justify;
+  text-align: left;
 }
 #console span {
   display: inline-block;
@@ -196,7 +196,7 @@ window.addEventListener('DOMContentLoaded', function () {
     numArray.sort(function (left, right) { return left - right; });
   
     const resultHtml = "★★ 행운의 숫자 ★★<br/><br/>" + 
-      numArray.map((num) => `<span style="font-size: xx-large; opacity: 0;">${num}</span>`).join("&nbsp;&nbsp; &nbsp;&nbsp;") + 
+      numArray.map((num) => `<span style="font-size: xx-large; opacity: 0;">${num}</span>`).join("&nbsp; &nbsp;") + 
       `<br/><br/><br/><br/><div id="rtime">&gt; 추첨시각 : ${nowLocaleString}<br/>${"&nbsp;&nbsp;[ " + nowString + " ]"}</div><br/>` + 
       `<form name="download"><input type="submit" id="download" value="다운로드" title="누르면 추첨 결과를 텍스트 형식의 파일로 다운로드합니다." /></form>`;
     
