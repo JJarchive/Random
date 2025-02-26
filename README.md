@@ -1,5 +1,8 @@
 <html lang="ko">
 <head>
+  <!-- Open Graph (Facebook, Linkedin) https://www.planuscompany.com/assets/images/logo/logo.svg -->
+  <!-- https://www.planuscompany.com/assets/images/logo/logo.svg -->
+  <title>번호추첨기</title>
 <style>
 @charset "utf-8";
 @import url('//fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script');
