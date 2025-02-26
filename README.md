@@ -12,13 +12,20 @@
     font-style: normal;
 }
 body {
-  font: normal normal normal large/1.3em 'Noto Sans KR',sans-serif;
-  text-shadow:3px 3px 4px lightgray;
+  font: normal normal normal large/1.3em 'TheJamsil5Bold'; color: white;
+  text-shadow:1px 1px 15px lightgray;
+  background-image :url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: 100%; 
+  background-repeat: no-repeat; 
+  background-position: left top; 
+  background-attachment: fixed;
+  
+    
 }
 .mzheader {
   padding:0px 1em 0px 1em;
   background-color:#f0f0ff;
-  font: normal normal normal large/1.8em 'Noto Sans KR',sans-serif;
+  font: normal normal normal large/1.8em 'TheJamsil5Bold'; color: white;
   text-shadow:3px 3px 4px cyan;
   border:3px solid #e0e0ff; 
   border-radius: 3px;
@@ -26,7 +33,7 @@ body {
 }
 a { text-decoration:none; }
 .mztrailer {
- font: normal normal normal large/1.5em 'Nanum Gothic Coding','Noto Sans KR',sans-serif;
+ font: normal normal normal large/1.5em 'TheJamsil5Bold'; color: white;
  text-shadow:3px 3px 4px cyan;
  word-wrap:break-word;
 }
@@ -62,9 +69,10 @@ a { text-decoration:none; }
   text-shadow:1px 1px 1px lightgray;
 }
 h1 {
-  font-weight: bold;
+  font-weight: bold; 
   font-size: xx-large;
   font-family: 'TheJamsil5Bold';
+  color: white ;
 }
 input[type="number"] {
   width: 5em;
