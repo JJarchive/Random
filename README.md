@@ -23,7 +23,7 @@ body {
   font: normal normal normal large/1.3em 'TheJamsil5Bold'; color: white;
   text-shadow:1px 1px 15px lightgray;
   background-image :url('https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-size: 100%; 
+  background-size: 100% 100%; 
   background-repeat: no-repeat; 
   background-position: left top; 
   background-attachment: fixed;
