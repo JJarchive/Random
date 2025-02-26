@@ -1,5 +1,6 @@
 <html lang="ko">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>무작위 번호 추출기</title>
@@ -7,6 +8,7 @@
   
 <title>번호추첨기</title>
 <style>
+  
   h1 {
   display: none; /* 제목을 숨깁니다 */
 }
@@ -155,6 +157,22 @@ footer {
   
 }
 
+.black-box {
+    margin: 0;
+    border:20px solid #3b3b3b;
+    border-top:20px solid #3b3b3b;
+    border-left:20px solid #3b3b3b;
+    border-right:20px solid #3b3b3b;
+    border-bottom:20px solid #3b3b3b;
+    border-radius: 30px;
+    background-color: #3b3b3b;opacity: 0.85; /* 검은 배경 색상 */
+    padding: 30; /* 내부 여백 제거 */
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 (필요시) */
+    width: 100%; /* 폭을 100%로 설정 */
+}
+
 .footer-image {
     display: inline-block; /* 이미지가 인라인 요소로 취급되게 함 */
     max-width: 100%; /* 최대 너비를 100%로 설정하여 반응형으로 만듭니다 */
@@ -280,6 +298,7 @@ window.addEventListener('DOMContentLoaded', function () {
   </form>
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 ★★</div>
   <footer>
+    <div class="black-box">
     <img src="https://userimg-mkt.tason.com/20250226/g4k61ioezzbtrdkcyia2_81b3b08e30f50841f0315bbd928feeae.png" alt="푸터 이미지" class="footer-image">
 </footer>
 </body>
