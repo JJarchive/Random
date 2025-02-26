@@ -22,12 +22,7 @@ body {
   
     
 }
-a { text-decoration:none; }
-.mztrailer {
- font: normal normal normal large/1.5em 'TheJamsil5Bold'; color: white;
- text-shadow:3px 3px 4px white;
- word-wrap:break-word;
-}
+
 #console {
   margin:1em auto 1em auto; 
   padding:30px 30px 30px 30px;
