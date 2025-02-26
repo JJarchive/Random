@@ -1,6 +1,6 @@
 <html lang="ko">
 <head>
-  <h1>[2025년 메타버스산업 통합 사업설명회]</h1>
+  <h1><a href="https://jjarchive.github.io/Random/">[2025년 메타버스산업 통합 사업설명회]</a></h1>
 <title>번호추첨기</title>
 <style>
 @charset "utf-8";
@@ -74,6 +74,7 @@ h1 {
   font-size: xxx-large;
   font-family: 'TheJamsil5Bold';
   color: white !important; /* 흰색으로 설정하며 우선 적용 */
+  :link {color : white;}
 }
 input[type="number"] {
   width: 6em;
