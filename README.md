@@ -1,6 +1,5 @@
 <html lang="ko">
 <head>
-<title>경품추첨</title>
 <style>
 @charset "utf-8";
 @import url('//fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script');
@@ -70,15 +69,16 @@ a { text-decoration:none; }
 }
 h1 {
   font-weight: bold; 
-  font-size: xx-large;
+  font-size: xxx-large;
   font-family: 'TheJamsil5Bold';
   color: white !important; /* 흰색으로 설정하며 우선 적용 */
 }
 input[type="number"] {
-  width: 5em;
+  width: 6em;
   font-weight: bold;
   font-size: large;
-  border:3px solid #0366d6;
+  font-family: 'TheJamsil5Bold';
+  border:3px solid #3c89ee;
   border-radius: 10px;
   text-align: right;
   
