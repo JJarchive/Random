@@ -148,6 +148,18 @@ input[type="submit"] {
     background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }  
+footer {
+    text-align: center; /* 텍스트 및 인라인 요소를 가운데 정렬 */
+  
+}
+
+.footer-image {
+    display: inline-block; /* 이미지가 인라인 요소로 취급되게 함 */
+    max-width: 100%; /* 최대 너비를 100%로 설정하여 반응형으로 만듭니다 */
+    height: auto; /* 비율을 유지하여 높이를 자동으로 조정 */
+    width: 400px; /* 원하는 너비로 설정 (예: 300px) */
+}
+  
 </style>
 <script>
 window.addEventListener('DOMContentLoaded', function () {
@@ -263,5 +275,8 @@ window.addEventListener('DOMContentLoaded', function () {
 </div>
   </form>
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 ★★</div>
+  <footer>
+    <img src="https://userimg-mkt.tason.com/20250226/g4k61ioezzbtrdkcyia2_81b3b08e30f50841f0315bbd928feeae.png" alt="푸터 이미지" class="footer-image">
+</footer>
 </body>
 </html>
