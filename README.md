@@ -1,6 +1,5 @@
 <html lang="ko">
 <head>
-  <h1><a href="https://jjarchive.github.io/Random/">[2025년 메타버스산업 통합 사업설명회]</a></h1>
 <title>번호추첨기</title>
 <style>
 @charset "utf-8";
@@ -74,7 +73,6 @@ h1 {
   font-size: xxx-large;
   font-family: 'TheJamsil5Bold';
   color: white !important; /* 흰색으로 설정하며 우선 적용 */
-  :link {color : white;}
 }
 input[type="number"] {
   width: 6em;
@@ -245,6 +243,7 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 </head>
 <body>
+  <h1>[2025년 메타버스산업 통합 사업설명회]</h1>
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.</b></p>
   <form name="randomNumber">
     <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
