@@ -150,6 +150,8 @@ input[type="submit"] {
 }  
 footer {
     text-align: center; /* 텍스트 및 인라인 요소를 가운데 정렬 */
+    padding: 0; /* 푸터의 여백 제거 */
+    background-color: transparent; /* 푸터 배경을 투명으로 설정 */
   
 }
 
@@ -158,6 +160,8 @@ footer {
     max-width: 100%; /* 최대 너비를 100%로 설정하여 반응형으로 만듭니다 */
     height: auto; /* 비율을 유지하여 높이를 자동으로 조정 */
     width: 400px; /* 원하는 너비로 설정 (예: 300px) */
+    background-color: transparent; /* 이미지 배경을 투명으로 설정 (필요시) */
+
 }
   
 </style>
