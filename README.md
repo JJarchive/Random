@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="styles.css">
 <title>번호추첨기</title>
 <style>
+h1 {
+  display: none; /* 제목을 숨깁니다 */
+}
 @charset "utf-8";
 @import url('//fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script');
 @import url('//cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css');
