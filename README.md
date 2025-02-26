@@ -49,8 +49,10 @@ a { text-decoration:none; }
   margin:1em auto 1em auto; 
   padding:30px 30px 30px 30px;
   border:20px solid #e7e7e7;
-  border-left:0.5em solid #e7e7e7;
-  border-right:0.5em solid #e7e7e7;
+  border-top:20px solid #e7e7e7;
+  border-left:20px solid #e7e7e7;
+  border-right:20px solid #e7e7e7;
+  border-bottom:20px solid #e7e7e7;
   border-radius: 30px;
   color:black;
   /*background:black url("/background.png") center/cover no-repeat;*/
@@ -78,7 +80,7 @@ a { text-decoration:none; }
 }
 h2 {
   font-weight: bold; 
-  font-size: 3em;
+  font-size: 3.5em;
   font-family: 'TheJamsil5Bold';
   color: white !important; /* 흰색으로 설정하며 우선 적용 */
 }
