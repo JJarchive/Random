@@ -78,7 +78,7 @@ a { text-decoration:none; }
 }
 h2 {
   font-weight: bold; 
-  font-size: xxx-large;
+  font-size: 3em;
   font-family: 'TheJamsil5Bold';
   color: white !important; /* 흰색으로 설정하며 우선 적용 */
 }
