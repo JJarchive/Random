@@ -227,7 +227,7 @@ window.addEventListener('DOMContentLoaded', function () {
       const spanElement = document.querySelectorAll("#console span")[index];
       setTimeout(() => {
         animateNumber(spanElement, num);
-      }, index * 30); // 각 숫자가 500ms 간격으로 나타남
+      }, index * 200); // 각 숫자가 500ms 간격으로 나타남
     });
 
     document.getElementById("download").addEventListener("click", function (event) {
