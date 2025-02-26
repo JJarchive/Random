@@ -1,5 +1,9 @@
 <html lang="ko">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무작위 번호 추출기</title>
+    <link rel="stylesheet" href="styles.css">
 <title>번호추첨기</title>
 <style>
 @charset "utf-8";
@@ -22,7 +26,21 @@ body {
   
     
 }
-
+.mzheader {
+  padding:0px 1em 0px 1em;
+  background-color:#f0f0ff;
+  font: normal normal normal large/1.8em 'TheJamsil5Bold'; color: white;
+  text-shadow:3px 3px 4px white;
+  border:3px solid #e0e0ff; 
+  border-radius: 3px;
+  word-wrap:break-word;
+}
+a { text-decoration:none; }
+.mztrailer {
+ font: normal normal normal large/1.5em 'TheJamsil5Bold'; color: white;
+ text-shadow:3px 3px 4px white;
+ word-wrap:break-word;
+}
 #console {
   margin:1em auto 1em auto; 
   padding:30px 30px 30px 30px;
@@ -32,8 +50,8 @@ body {
   border-radius: 30px;
   color:black;
   /*background:black url("/background.png") center/cover no-repeat;*/
-  background:#f0f0f0 none center/cover no-repeat;
-  /*opacity:0.85;*/
+  background:#ffffff none center/cover no-repeat;
+  opacity:0.75;
   font-family: 'TheJamsil5Bold';
   font-weight: 700;
   font-style: normal;
