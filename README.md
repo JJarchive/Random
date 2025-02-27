@@ -43,9 +43,9 @@ body {
 }
 
 .bg-video__content {
-  height: 100%;
+  height: fill;
   width: 100%;
-  background-size: 100% 100%;
+  //background-size: cover;
   object-fit: fill; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
   
 }
