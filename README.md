@@ -32,6 +32,22 @@ body {
   
     
 }
+  .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
+  
+}
 .mzheader {
   padding:0px 1em 0px 1em;
   background-color:#f0f0ff;
@@ -266,6 +282,11 @@ window.addEventListener('DOMContentLoaded', function () {
 </div>
   </form>
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 ★★</div>
-
+<div class="bg-video">
+  <video class="bg-video__content" autoplay muted loop>
+    <source src="https://videos.pexels.com/video-files/2646392/2646392-hd_1920_1080_30fps.mp4" type="video/mp4" />
+    Your browser is not supported!
+  </video>
+</div>
 </body>
 </html>
