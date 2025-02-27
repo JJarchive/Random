@@ -36,17 +36,22 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: fill;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: -1;
   opacity: 0.5;
+  overflow: hidden;
+  position: absolute;
+  
 }
 
 .bg-video__content {
-  height: fill;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
   //background-size: cover;
-  object-fit: fill; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
+  object-fit: cover; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
+  
   
 }
 .mzheader {
