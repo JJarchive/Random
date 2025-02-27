@@ -32,12 +32,12 @@ body {
   
     
 }
-  .bg-video {
+.bg-video {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: cover;
+  width: cover;
   z-index: -1;
   opacity: 0.5;
 }
@@ -45,6 +45,7 @@ body {
 .bg-video__content {
   height: 100%;
   width: 100%;
+  background-size: 100% 100%;
   object-fit: cover; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
   
 }
