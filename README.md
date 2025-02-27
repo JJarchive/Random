@@ -36,8 +36,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: cover;
-  width: cover;
+  height: fill;
+  width: fill;
   z-index: -1;
   opacity: 0.5;
 }
@@ -46,7 +46,7 @@ body {
   height: 100%;
   width: 100%;
   background-size: 100% 100%;
-  object-fit: cover; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
+  object-fit: fill; // background-size: cover 와 비슷함. (HTML 요소 or 비디오와 작동)
   
 }
 .mzheader {
