@@ -37,7 +37,7 @@ body {
   top: 0;
   left: 0;
   height: fill;
-  width: fill;
+  width: 100%;
   z-index: -1;
   opacity: 0.5;
 }
