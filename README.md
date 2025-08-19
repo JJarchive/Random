@@ -277,7 +277,7 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 </head>
 <body>
-  <h2>[2025년 메타버스산업 통합 사업설명회]</h2>
+  <h2>[2025년 디지털 이노베이션 인사이트 (Meet-up Day)]</h2>
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.</b></p>
   <form name="randomNumber">
     <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
