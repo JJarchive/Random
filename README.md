@@ -289,7 +289,7 @@ window.addEventListener('DOMContentLoaded', function () {
   <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 (Draw Results) ★★</div>
 <div class="bg-video">
   <video class="bg-video__content" autoplay muted loop>
-    <source src="https://videos.pexels.com/video-files/2646392/2646392-hd_1920_1080_30fps.mp4" type="video/mp4" />
+    <source src="https://videos.pexels.com/video-files/30696371/13134125_1920_1080_30fps.mp4" type="video/mp4" />
     Your browser is not supported!
   </video>
 </div>
