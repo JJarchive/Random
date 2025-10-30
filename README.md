@@ -245,7 +245,7 @@ window.addEventListener('DOMContentLoaded', function () {
     let nowSimple = '' + d.getFullYear() + leftPad2(d.getMonth()+1) + leftPad2(d.getDate()) + leftPad2(d.getHours()) + leftPad2(d.getMinutes()) + leftPad2(d.getSeconds());
     numArray.sort(function (left, right) { return left - right; });
   
-    const resultHtml = "★★ 행운의 숫자 ★★<br/><br/>" + 
+    const resultHtml = "★★ 행운의 숫자 (A Lucky Number) ★★<br/><br/>" + 
       numArray.map((num) => `<span style="font-size: xxx-large; opacity: 0;">${num}</span>`).join("   ") + 
       `<br/><br/><br/><br/><div id="rtime">&gt; 추첨시각 : ${nowLocaleString}<br/>${"&nbsp;&nbsp;[ " + nowString + " ]"}</div><br/>` + 
       `<form name="download"><input type="submit" id="download" value="다운로드" title="누르면 추첨 결과를 텍스트 형식의 파일로 다운로드합니다." /></form>`;
@@ -277,16 +277,16 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 </head>
 <body>
-  <h2>[2025년 디지털 이노베이션 인사이트 (Meet-up Day)]</h2>
-  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.</b></p>
+  <h2>[2025년 방송 공동제작 국제 컨퍼런스 (2025 International Broadcasting Co-production Conference)]</h2>
+  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.&nbsp; (A random number will be drawn from the range entered below.)</b></p>
   <form name="randomNumber">
-    <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
+    <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위&nbsp;(Range of Numbers)</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
     <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
-    <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작</button>
+    <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작 (Draw Now)</button>
 </div>
   </form>
-  <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 ★★</div>
+  <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 (Draw Results) ★★</div>
 <div class="bg-video">
   <video class="bg-video__content" autoplay muted loop>
     <source src="https://videos.pexels.com/video-files/2646392/2646392-hd_1920_1080_30fps.mp4" type="video/mp4" />
