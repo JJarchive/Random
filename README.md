@@ -277,11 +277,11 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 </head>
 <body>
-  <h2>[2025년 방송 공동제작 국제 컨퍼런스 (2025 International Broadcasting Co-production Conference)]</h2>
+  <h2>[2025년 방송 공동제작 국제 컨퍼런스 (2025 IBCC)]</h2>
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.&nbsp; (A random number will be drawn from the range entered below.)</b></p>
   <form name="randomNumber">
     <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위&nbsp;(Range of Numbers)</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
-    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원&nbsp;(Number of Winners)</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작 (Draw Now)</button>
 </div>
