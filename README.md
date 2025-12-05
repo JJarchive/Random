@@ -277,7 +277,7 @@ window.addEventListener('DOMContentLoaded', function () {
 </script>
 </head>
 <body>
-  <h2>[2025년 방송 공동제작 국제 컨퍼런스 (2025 IBCC)]</h2>
+  <h2><p style="text-align: center">[2025년 독자 AI 파운데이션 모델 대국민 보고회]</p></h2>
   <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.&nbsp; (A random number will be drawn from the range entered below.)</b></p>
   <form name="randomNumber">
     <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위&nbsp;(Range of Numbers)</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
