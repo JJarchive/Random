@@ -278,9 +278,9 @@ window.addEventListener('DOMContentLoaded', function () {
 </head>
 <body>
   <h2><p style="text-align: center">[2025년 독자 AI 파운데이션 모델 대국민 보고회]</p></h2>
-  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b><p style="text-align: center">📢잠시 후 경품 추첨 이벤트가 시작됩니다. 당첨자는 등록데스크에서 경품을 수령해주세요. </b></p>
+  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><p style="text-align: center">📢잠시 후 경품 추첨 이벤트가 시작됩니다. 당첨자는 등록데스크에서 경품을 수령해주세요.</p>
   <form name="randomNumber">
-    <p><p style="text-align: center"><span title="숫자 범위 (Range)">🔢랜덤 번호 추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" />&nbsp;&nbsp;&nbsp;&nbsp; <span title="추출 숫자의 갯수 (Count)">🎉행운의 당첨자 수</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
+    <p style="text-align: center"><span title="숫자 범위 (Range)">🔢랜덤 번호 추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" />&nbsp;&nbsp;&nbsp;&nbsp; <span title="추출 숫자의 갯수 (Count)">🎉행운의 당첨자 수</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <div class="calcButton"><button class="btn-hover color-9" id="calcButton">지금 바로 추첨을 시작합니다!!</button>
 </div>
@@ -294,4 +294,3 @@ window.addEventListener('DOMContentLoaded', function () {
 </div>
 </body>
 </html>
-
