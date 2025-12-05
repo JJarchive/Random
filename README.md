@@ -278,15 +278,14 @@ window.addEventListener('DOMContentLoaded', function () {
 </head>
 <body>
   <h2><p style="text-align: center">[2025년 독자 AI 파운데이션 모델 대국민 보고회]</p></h2>
-  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b>아래 입력된 범위에서 무작위 번호를 추출합니다.&nbsp; (A random number will be drawn from the range entered below.)</b></p>
+  <p title="Randomizes non-overlapping numbers (integers) within the range of numbers entered below."><b><p style="text-align: center">📢잠시 후 경품 추첨 이벤트가 시작됩니다. 당첨자는 등록데스크에서 경품을 수령해주세요. </b></p>
   <form name="randomNumber">
-    <p><span title="숫자 범위 (Range)">- &nbsp;추첨 범위&nbsp;(Range of Numbers)</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" /></p>
-    <p><span title="추출 숫자의 갯수 (Count)">- &nbsp;당첨 인원&nbsp;(Number of Winners)</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><p style="text-align: center"><span title="숫자 범위 (Range)">🔢랜덤 번호 추첨 범위</span>: &nbsp;<input type="number" size="6" id="startNUM" value="1" title="시작 값 (Begin)"/> ~ <input type="number" size="6" id="endNUM" value="100" title="끝 값 (End)" />&nbsp;&nbsp;&nbsp;&nbsp; <span title="추출 숫자의 갯수 (Count)">🎉행운의 당첨자 수</span>: &nbsp;<input type="number" size="6" id="selectNum" value="10" title="추출 숫자가 너무 큰 경우 오래 기다려야 할 수 있습니다." />&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
-    <div class="calcButton"><button class="btn-hover color-9" id="calcButton">추첨시작 (Draw Now)</button>
+    <div class="calcButton"><button class="btn-hover color-9" id="calcButton">지금 바로 추첨을 시작합니다!!</button>
 </div>
   </form>
-  <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)">★★ 추첨결과 (Draw Results) ★★</div>
+  <div id="console" title="추첨하기를 누르면 여기에 결과가 나와요. (Press the button to see the result.)"><p style="text-align: center"> 🎁여기에 무작위 당첨번호가 나타납니다!<br><br>1등: OOO(00명)&nbsp;&nbsp;&nbsp;&nbsp;2등: OOO(00명)&nbsp;&nbsp;&nbsp;&nbsp;3등: OOO(00명)</p></div>
 <div class="bg-video">
   <video class="bg-video__content" autoplay muted loop>
     <source src="https://videos.pexels.com/video-files/30696371/13134125_1920_1080_30fps.mp4" type="video/mp4" />
@@ -295,3 +294,4 @@ window.addEventListener('DOMContentLoaded', function () {
 </div>
 </body>
 </html>
+
